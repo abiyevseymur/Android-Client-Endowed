@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Endowed</string>
+    <string name="changeRate">Change Rate</string>
+    <string name="zero">0.00</string>
+    <string name="dayssLeft">days left</string>
+    <string name="mounthCount">0</string>
+    <string name="current_rate">Your Current Rate</string>
+    <string name="azn">Azn</string>
+    <string name="set_rate">Set New Rate</string>
+    <string name="totalRate">Total Rate</string>
+    <string name="welcome">Welcome,</string>
+</resources>
