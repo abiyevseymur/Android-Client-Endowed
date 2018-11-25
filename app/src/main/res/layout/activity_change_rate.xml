@@ -73,17 +73,36 @@
                 android:text="@string/set_rate"
                 android:textSize="18sp" />
 
-            <EditText
-                android:id="@+id/editText"
-                android:layout_width="129dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:ems="10"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foregroundGravity="center"
                 android:gravity="center"
-                android:inputType="number"
-                android:paddingBottom="10dp"
-                android:paddingTop="10dp"
-                android:textColorHint="@color/redAccess" />
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/getValueRate"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:textColorHint="@color/redAccess" />
+
+                <ImageButton
+                    android:id="@+id/btnGetRate"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:foregroundGravity="center"
+                    app:srcCompat="@android:drawable/ic_menu_send" />
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/totalRate"
@@ -104,19 +123,18 @@
                 android:paddingTop="10dp">
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/getRate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:gravity="right|center"
-                    android:paddingRight="5dp"
                     android:text="0"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView8"
-                    android:layout_width="wrap_content"
+                    android:layout_width="25dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
@@ -128,7 +146,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/changeRateBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

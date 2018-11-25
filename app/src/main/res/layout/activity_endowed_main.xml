@@ -19,7 +19,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintHorizontal_bias="0.289"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -35,7 +35,7 @@
         android:layout_marginTop="8dp"
         android:paddingBottom="10dp"
         android:paddingTop="10dp"
-        android:text="Seymur Abiyev"
+        android:text="---------"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/welcome"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,6 +43,23 @@
         app:layout_constraintStart_toEndOf="@+id/welcome"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="160dp"
+        android:layout_marginTop="8dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:text="@string/dayssLeft"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monthLeft" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -80,7 +97,7 @@
         app:layout_constraintTop_toBottomOf="@+id/progressBar" />
 
     <TextView
-        android:id="@+id/amountOf"
+        android:id="@+id/monthLeft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -104,21 +121,21 @@
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
         android:paddingStart="5dp"
-        android:text="@string/dayssLeft"
+        android:text="@string/amount"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintHorizontal_bias="0.622"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/progressBar"
-        app:layout_constraintVertical_bias="0.069" />
+        app:layout_constraintVertical_bias="0.076" />
 
     <TextView
-        android:id="@+id/monthLeft"
+        android:id="@+id/amountOf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="12dp"
         android:layout_marginTop="8dp"
         android:text="@string/mounthCount"
         android:textSize="18sp"
@@ -128,5 +145,5 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/progressBar"
-        app:layout_constraintVertical_bias="0.069" />
+        app:layout_constraintVertical_bias="0.076" />
 </android.support.constraint.ConstraintLayout>
