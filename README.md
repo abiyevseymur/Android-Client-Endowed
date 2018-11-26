@@ -12,3 +12,9 @@ and change the amount of money Our Customer wants to send to his endownment acco
 Besides that, due to program a Customer does not have to send any additional documents and sign 
 new applications to change the monthly rate of the money amount he wants to pay from his monthly salary, 
 because now he can do it from Our Endowed application.
+
+
+You can get apk file:
+Android-Client-Endowed/app/release
+
+
